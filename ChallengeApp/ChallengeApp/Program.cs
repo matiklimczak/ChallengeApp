@@ -1,18 +1,18 @@
 ﻿var age = 33;
-var name = "Ewa";
-var gender = "kobieta";
+var name = "Eva";
+var gender = "frau";
 
-if (age < 30 && gender == "kobieta")
+if (age < 30 && gender == "frau")
 {
-    Console.WriteLine("Kobieta poniezj 30 lat");
+    Console.WriteLine("Diese Frau ist junger als 30");
 }
 
-else if (name == "Ewa" && age == 33)
+else if (name == "Eva" && age == 33)
 
 {
-    Console.WriteLine("Ewa, lat 33");
+    Console.WriteLine("Eva, lat 33");
 }
-else if (gender != "kobieta" && age < 18)
+else if (gender != "frau" && age < 18)
 {
-    Console.WriteLine("Niepelnoletni Mezczyzna");
+    Console.WriteLine("Ein Mann unter 18 Jahre");
 }
